@@ -5,7 +5,7 @@ let tentativa = 3;
 
 while (tentativa > 0) {
     let chute = parseInt(prompt("Vamos jogar um jogo! Você tem 3 tentativas para adivinhar o número que estou pensando, entre 1 e 10."));
-    
+
     if (chute === numSortido) {
         alert("Parabéns! Você adivinhou o número!");
         break;
@@ -14,5 +14,3 @@ while (tentativa > 0) {
     }
     tentativa--;
 }
-
-
